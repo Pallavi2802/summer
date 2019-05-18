@@ -1,3 +1,10 @@
-x=int(input("enter a no"))
-y=int(input("enter a no"))
-print("x+y",x+y)
+print("-"*60)
+print("welcome to addition program \n".center(60))
+x=int(input("enter a no".center(60).rstrip()))
+y=int(input("enter a no".center(60Î.rstrip())))
+print(f"x ={x}".center(60))
+print(f"y ={y}".center(60))
+print(f"{x} + {y} = {x+y}".center(60))
+print("thanks for using this program\n.".center(60))
+print("-"*60)
+

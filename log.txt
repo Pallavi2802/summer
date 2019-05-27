@@ -1,0 +1,2 @@
+DATE:LOGTYPE:MESSAGE
+Mon May 27 23:48:37 2019:INFO:User Sucessfully Logged in 

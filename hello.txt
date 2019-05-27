@@ -1,0 +1,9 @@
+hello world
+     this is easy,
+    in file handling we just resd or write data
+    in data
+
+
+
+
+	 Hello world

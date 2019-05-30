@@ -1,2 +1,2 @@
 DATE:LOGTYPE:MESSAGE
-Mon May 27 23:48:37 2019:INFO:User Sucessfully Logged in 
+Thu May 30 20:36:43 2019:INFO:User Sucessfully Logged in 

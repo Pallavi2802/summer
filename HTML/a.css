@@ -35,3 +35,7 @@ div{
     border-radius: 6px;
     background-color:darkgrey;
 }
+select option{
+    background-color:black;
+    text-decoration-color:blue; 
+}

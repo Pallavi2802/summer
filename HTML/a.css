@@ -12,12 +12,27 @@ h2{
 
 }
 #one{
-    padding-left: 50px;
+    border:none;
+    background:none ; 
+     color:floralwhite;
+     text-shadow: 0em;
+     width: 140;
+     font-size: 15pt;
+     border-radius: 6px;
+     
+      
+    
+}
+#one:hover{
+    background-color:whitesmoke;
+            color:black;
+    text-decoration-color: black;
+
 }
 select{
     color:black;
     text-decoration-color: black;
-    width: 30px;
+    width: 50px;
 }
 p
 {
@@ -26,6 +41,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
  text-decoration-color:black;
 padding-left: 40px;
 text-align:left;
+column-rule-width: 50px;
 
     
 }
@@ -36,6 +52,7 @@ div{
     background-color:darkgrey;
 }
 select option{
-    background-color:black;
+width:40;
+
     text-decoration-color:blue; 
 }

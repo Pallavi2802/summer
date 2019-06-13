@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> 
+            h
+        </title>
+    </head>
+    <body>
+{% if mark>80 %}
+<h1 style="color:blueviolet">A - {{ mark }}</h1>
+{% elif mark<80 and mark>60 %}
+<h1 style="color:blueviolet">B - {{ mark }}</h1>
+{% elif mark>40 and mark<80 %}
+<h1 style="color:blueviolet">C - {{ mark }}</h1>
+{% elif mark>20 and mark<40 %}
+<h1 style="color:blueviolet">D - {{ mark }}</h1>
+{% else %}
+<h1 style="color:cyan">Fail - {{ mark }}</h1>
+{% endif %}
+<h1 style="color:cyan"> Thanks</h1>
+    </body>
+</html>

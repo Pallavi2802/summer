@@ -53,6 +53,9 @@ img{
    font-family: 'Times New Roman', Times, serif;
  font-size: 30;
 }
+a{
+    margin-top: 500px;
+}
 #inner3{
     float: left;
 

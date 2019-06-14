@@ -8,8 +8,14 @@ input{
    }
  input:hover
 {
-    background-color:whitesmoke;
-    color:black;
+   background-color:whitesmoke;
+   color:black;
+}
+#one{
+    height:400;
+margin-top:20;
+    align:"center";
+    width:400;
 }
 img{
     padding-left: 20px;
@@ -17,14 +23,14 @@ img{
 #outer0{
     padding-top: 100;
     width: 100%;;
-    height:40%;
+    height:20%;
     padding-left: 10;
     padding-right: 10;
     background:none;
     
 }
 #outer2{
-    padding-top: 100;
+
     width: 100%;;
     height:40%;
     padding-left: 10;
@@ -33,65 +39,63 @@ img{
 
 }
 #outer1{
-    padding-top: 100;
     width: 100%;;
-    height:40%;
+    height:96%;
     padding-left: 10;
     padding-right: 10;
     background:none;
-
 }
 #inner0,#inner6{
     float: left;
      width: 30%;
-    height: 70%;
+    height: 90%;
     margin-left: 30px;
-   background:slategrey;
-   
-   padding-top: 60px;
-   text-align: center;
+   background:none;
    font-family: 'Times New Roman', Times, serif;
  font-size: 30;
+ text-align:center;
+ 
+ text-transform: capitalize;
+ 
 }
-a{
-    margin-top: 500px;
-}
+
 #inner3{
     float: left;
-
-    width: 30%;
-    height: 70%;
+   width: 30%;
+    height: 90%;
     margin-left: 30px;
-   background:indianred;
-   text-align:center;
-   padding-top: 50px;
+   background:none;
+   
 
 }
 #inner1,#inner4,#inner7{
     float: left;
-    padding-top: 200;
+   text-align:center;
     width: 30%;
-    height: 30%;
+    height: 90%;
     top: 25%;
     margin: 0 auto;
-    background:hotpink;
+    background:none;
     margin-left: 30px;
-    text-align: center;
     font-family: 'Times New Roman', Times, serif;
   font-size: 30;
+  color:whitesmoke;
 
 }
 #inner2,#inner5,#inner8{
     float:right;
-    padding-top: 200;
+    text-align:center;
     width: 30%;
-    height: 30%;
+    height: 90%;
     padding-right:40;
     padding-left:40;
      margin-right: 30px;
-    background:darkmagenta;
-    text-align: center;
+    background:none;
     font-family: 'Times New Roman', Times, serif;
   font-size: 30;
 
+}
+#two{
+    height:400;
+    width:400;
 }

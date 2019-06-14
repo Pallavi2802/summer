@@ -100,16 +100,16 @@ def signup1():
       db = sql.connect(host='localhost',port=3306,user='root',password='',database='internshipbatch')
       c = db.cursor()
       email = request.form.get('email')
-      username = request.form.get('email')
+      username = request.form.get('user')
       profile = request.form.get('myfile')
       cmd = f"insert into users values('{email}','{username}','{password}','{profile}')"
       c.execute(cmd)
       db.commit()
       dict = {'email' : request.form.get('email'),
-              'username' : request.form.get('email'),
+              'username' : request.form.get('user'),
                'profile' : request.form.get('myfile'),
               }
-      return render_template("hello.html",data=dict)
+      return render_template("header.html",data=dict)
     except Exception as e:
        return "ERROR...{}".format(e)
   else:

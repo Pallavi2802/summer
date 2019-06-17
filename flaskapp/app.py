@@ -35,10 +35,12 @@
 #if __name__ == "__main__":
    # app.run(host="localhost",port=80,debug=True)
 
-from flask import Flask,render_template,request
+from flask import Flask,render_template,request,make_response
 import pymysql as sql
 
+
 app = Flask(__name__)
+
 
 @app.route("/")
 def index():
@@ -76,7 +78,10 @@ def login():
     print(data)
     if data:
       if data[2]  == password:
-        return "<h1 style='color:red'>Welcome user with email {} and password {}".format(email,password)
+        resp = make_response(render_template("header.html"))
+        resp.set_cookie('email',email)
+        resp.set_cookie('islogin','True')
+        #return "<h1 style='color:red'>Welcome user with email {} and password {} ".format(email,password)
       else:           
         error = "PASSWORD DOES NOT MATCH...TRY AGAIN.."
         return render_template("header.html",error=error)
